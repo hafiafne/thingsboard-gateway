@@ -95,7 +95,7 @@ class BytesModbusUplinkConverter(ModbusConverter):
             '8uint': decoder.decode_8bit_uint,
             '16int': decoder.decode_16bit_int,
             '16uint': decoder.decode_16bit_uint,
-            '16float': decoder.decode_16bit_float,
+            #'16float': decoder.decode_16bit_float,
             '32int': decoder.decode_32bit_int,
             '32uint': decoder.decode_32bit_uint,
             '32float': decoder.decode_32bit_float,
